@@ -1,0 +1,40 @@
+# Corpus / private source material
+corpus/
+acervo/
+amostras_privadas/
+dados_reais/
+*.doc
+*.docx
+*.pdf
+*.xlsx
+*.xls
+*.zip
+
+# Runtime / generated
+output/
+exports/
+temp/
+tmp/
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# Secrets
+.env
+.env.*
+*.token
+*.secret
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
